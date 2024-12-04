@@ -1,0 +1,19 @@
+{
+    "php": "^8.3",
+    "autoload": {
+        "psr-4": {
+            "RTAQI\\": ""
+        }
+    },
+    "require": {
+        "league/plates": "^3.6",
+        "symfony/http-foundation": "^7.1",
+        "phpmailer/phpmailer": "^6.9",
+        "ramsey/uuid": "^4.7",
+        "symfony/http-client": "^7.1",
+        "ext-pdo": "*"
+    },
+    "scripts": {
+        "start": "php -S localhost:80 -t public"
+    }
+}
